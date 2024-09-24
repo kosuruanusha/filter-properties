@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat',sans-serif;     
+        }
+        body{
+            background-color: rgb(205, 221, 231);
+            
+        }
+       
+        .header{
+            width: 100%;
+            height:100vh;
+            background-size: cover;
+            background-position: center;
+            position:relative;
+            color: rgb(169, 28, 126);
+             
+        }
+        
+        .menu{
+            color:rgb(213, 33, 63);
+            width:300px;
+            height:90px;
+            text-align:right;   
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 30px;
+        }
+        .navbar h3{
+            max-width: 100%;
+            height: 900px;
+            left:40px;
+        }
+        .menu ul{
+            display: flex;
+        }
+        .menu  ul li{
+            list-style: none;
+            margin: 20px;     
+        }
+        .menu  li a{
+            text-decoration: none;
+            color: #171817;;
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+        .menu  :hover{
+            color: rgb(52, 214, 37);
+
+        }
+        span{
+            color: rgb(73, 28, 198);
+        }
+        .main{
+            position: absolute;
+            color: rgb(169, 28, 126);
+            left: 8%;
+            top: 30%;
+        }
+        .main h4{
+            text-transform: capitalize;
+            font-size: 25px;
+            margin: 20px 0;
+            color: hotpink;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .main p{
+            text-transform: capitalize;
+            font-size: 20px;
+            color: rgb(20, 20, 20);
+            font-family:'Times New Roman', Times, serif;
+
+        }
+        .type{
+            float: right;
+            margin-top: 60px;
+        }
+        button{
+            background-color: rgb(148, 111, 234);
+            font-size: 25px;
+            text-align: center;
+            margin-top: 30px;
+            margin-left: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            
+            
+        }
+        .wave{
+            position: absolute;
+            bottom:0px;
+            left: 0px;
+            
+        }
+        h3 img{
+            width: 120px;
+            height: 60px;
+        }
+        form input{
+            height: 50px;
+            width: 540px;
+            margin-top: 30px;
+        }
+        form{
+            text-align: center;
+            margin-left: 100px;
+            
+        }
+        .product{
+            text-align: center;
+            margin-top: 50px;
+            margin-left: 50px;
+            
+        }
+        .product h1{
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 50px;
+
+        }
+        .product p{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 23px;
+            margin-left: 50px;
+        }
+        img{
+            margin-top: 30px;
+            text-align: center;
+            margin-left: 90px;
+
+        }
+        h1{
+            text-align: center;
+            margin-top: 30px;
+            color: brown;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #open1{
+            filter:blur(4px);
+        }
+        #open2{
+            filter:brightness(150%);
+        }
+        #open3{
+            filter:contrast(-300%);
+        }
+        #open4{
+            filter:grayscale(50%);
+        }
+        #open5{
+            filter:hue-rotate(180deg);
+        }
+        #open6{
+            filter:invert(100%);
+        }
+        #open2{
+            filter:opacity(50);
+        }
+        #open4{
+            filter:saturate(7);
+        }
+        #open3{
+            filter:sepia(100%);
+        }
+        #open1{
+            filter:drop-shadow(8px 8px 10px rgb(230, 15, 66));
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <h3><img src="olx logo.jpg"></h3>
+            <div class="menu">
+                <ul>
+                <li><a href="#"><span>HOME</a></li></span>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">VIEW</a></li>
+                <li><a href="#">CONTACT</a></li>
+               
+                </ul>
+               
+                <img src="service img.jpg" class="type">
+                
+            </div>
+            </div>
+            <div class="main">
+        
+           <h4>DESINING CODE</h4>
+            
+            
+            <p>A design code is a set of simple, concise and illustrated design requirements <br>
+              that provide parametersfor the developmentof a site or area.They frequently<br>
+               support outline or hybrid planning applicationsto set out the rules <br>
+               for future phases of a site, an approach which many built<br> 
+               environment professionals  will be familiar with.</p>
+                  <button>click me!</button>  
+                  <form>
+                    <input type="text" placeholder="search">
+                  </form>  
+                <div class="product">
+                  <h1>PRODUCT DEATAILES</h1>
+                  <p>olx product is best platform in hyderabad and total india.and more information<br>
+                   olx product is best product this company meaning is old product is change to new<br>
+                   product to sale  this product is newly exchange to offers are provieds olx product<br>
+                   any members to create a this account then it will be create a best product this<br>
+                    platform to provieds a  cheap cast low prise product so this is one best option</p>  
+                </div>
+                    <h1>VIEW PRODUCT DEATAILES</h1>
+                    <img id="open1" src="open3.jpeg">
+                    <img id="open2" src="open2.jpeg">
+                    <img id="open3" src="open1.jpeg">
+                    <img  id="open4"src="open5.jpeg">
+                    <img id="open5" src="open6.jpeg">
+                    <img  id="open6" src="open4.jpeg">
+                    <img   id="open2"src="open3.jpeg">
+                    <img   id="open4"src="open2.jpeg">
+                    <img   id="open3"src="open4.jpeg">
+                    <img  id="open1" src="open1.jpeg">
+                </div>
+
+    </div>
+    
+</div>
+    
+</body>
+</html>
